@@ -1,6 +1,11 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -9,9 +14,6 @@ body {
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-html {
-    position: relative;
+    padding-text-align: center;
+    padding-left:  10px;
 }
